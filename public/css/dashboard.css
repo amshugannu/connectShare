@@ -1,0 +1,84 @@
+
+/* Dashboard Styles */
+.dashboard {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #28a745;
+    width:60%;
+    align-items: center;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: opacity 1s; /* Smooth transition for fade-out */
+    opacity: 1; /* Ensure it starts fully visible */
+}
+
+/* Additional style for when the message is fading out */
+.alert-success.hidden {
+    opacity: 0;
+    pointer-events: none; /* Prevent interaction while fading out */
+}
+
+
+.resource-list {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+.dashboard h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
